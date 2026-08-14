@@ -10,7 +10,7 @@ A custom NAT Network was created in VirtualBox to manage local network routing a
 * **IPv4 Prefix:** `10.0.0.0/24`
 * **DHCP Server:** Enabled
 
-![NAT Network Settings](assets/image_0a426d.png)
+![NAT Network Settings](assets/Picture1.png)
 
 ---
 
@@ -23,7 +23,7 @@ Inside the Kali Linux virtual machine, the network connection was configured man
 * **Gateway:** `10.0.0.1`
 * **DNS Servers:** `10.0.0.1`
 
-![Kali Static IP Configuration](assets/image_09e09e.png)
+![Kali Static IP Configuration](assets/Picture2.png)
 
 ---
 
@@ -32,7 +32,7 @@ To verify network connectivity and ensure the Kali machine can communicate with 
 * **Command:** `ping -c 4 10.0.0.1`
 * **Result:** 4 packets transmitted, 4 received, **0% packet loss**.
 
-![Gateway Ping Test](assets/image_09dc01.png)
+![Gateway Ping Test](assets/Picture3.png)
 
 ---
 
@@ -40,4 +40,4 @@ To verify network connectivity and ensure the Kali machine can communicate with 
 To secure a clean working state of the virtual machine before proceeding with further testing or security labs, a system snapshot was captured.
 * **Snapshot Name:** `My fresh kali linux`
 
-![Snapshot Manager](assets/image_09d936.png)
+![Snapshot Manager](assets/Picture4.png)
